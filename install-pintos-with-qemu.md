@@ -1,5 +1,6 @@
 ### Installing Pintos and running in QEMU
 
+_host platform independent procedure_
 _all versions as of 2016-03-08_
 
 * * *
@@ -80,7 +81,24 @@ _all versions as of 2016-03-08_
    git clone git://pintos-os.org/pintos-anon
    cd pintos-anon
    ```
+2. Now you are in `$HOME/git-repos/pintos-anon` where `$HOME` is your home directory. To see the value of the environment variable `$HOME`:
+
+   ```
+   echo $HOME
+   ```
+   
+3. We'll informally refer to this directory as `$PINTOS_ROOT` thought we don't have to have such an environment variable. All subsequent instructions assume that you start out in this directory. For me, this directory resolves to the absolute path `/home/ivogeorg/git-repos/pintos-anon`. Remember to expand it into the absolute path wherever it is referenced in a file.
    
 #### Configure and build Pintos
 
-1. 
+1. Set the **GDBMACROS** variable in the file `$PINTOS_ROOT/src/utils/pintos-gdb` to `$PINTOS_ROOT/src/misc/gdb-macros`.
+
+  1. Open an editor
+
+     ```
+     gedit src/misc/gdb-macros
+     ```
+  2. Change Line 4 to `GDBMACROS=$PINTOS_ROOT/src/misc/gdb-macros`. Expand into absolute path. 
+  3. Save the file.
+
+2. 
