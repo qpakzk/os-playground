@@ -1,6 +1,6 @@
 ### Installing Pintos and running in QEMU
 
-_as of 2016-03-07_
+_as of 2016-03-08_
 
 * * *
 
@@ -45,20 +45,42 @@ _as of 2016-03-07_
 
 1. Open a terminal.
 
-2. Check if you have _cmake_ installed. If not, install it:
+2. _(optional)_ Check if you have _cmake_ installed. If not, install it:
 
    ```
    which cmake
    sudo apt-get install cmake
+   which cmake
    ```
 
-3. Check if you have _git_ installed. If not, install it:
+3. Check if you have _git_ installed. This is a VCS. We'll need it to fetch Pintos. If not, install it:
  
    ```
    which git
    sudo apt-get install git
+   which git
+   ```
+   
+4. Check if you have _qemu_ installed. This is a virtualizer/**emu**lator. We'll need it to run Pintos in. If not, install it:
+
+   ```
+   which qemu-system-x86_64
+   sudo apt-get install qemu-system
+   which qemu-system-x86_64
    ```
    
 #### Download Pintos
+
+1. Make a _git-repos_ directory in your home directory and clone the public Pintos repository inside it:
+
+   ```
+   cd
+   mkdir git-repos
+   cd git-repos
+   git clone git://pintos-os.org/pintos-anon
+   cd pintos-anon
+   ```
+   
+#### Configure and build Pintos
 
 1. 
