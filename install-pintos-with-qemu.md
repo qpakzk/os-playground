@@ -213,4 +213,8 @@ _thanks to [Surya Seetharaman](https://tssurya.wordpress.com/2014/08/16/installi
 
 #### Run the tests for Project 1: Threads
 
-1. Run the 
+```
+cd src/threads/build
+make check
+```
+
