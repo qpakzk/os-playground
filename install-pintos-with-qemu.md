@@ -37,17 +37,28 @@ _as of 2016-03-07_
    sudo apt-get install dkms
   ```
 
-3. Click on the small disk picture on the bottom bar of the virtual machine window. Click "Choose disk image" and select the _VBoxGuestAdditions_5.0.16.iso_ (downloaded earlier). **TODO: 5.0.16 errors out*** Ubuntu will recognize that you want to install the Guest Additions. Agree to the installation.
-4. After the installation, restart the machine.
-5. Now you can increase the resolution of the screen to something that is more convenient for development.
+3. Click on the small disk picture on the bottom bar of the virtual machine window. Click "Choose disk image" and select the _VBoxGuestAdditions_5.0.16.iso_ (downloaded earlier). Ubuntu will recognize that you want to install the Guest Additions. Agree to the installation.
+4. After the installation, eject the disk from the left-hand menu bar, and restart the machine.
+5. Now you can increase the resolution of the screen to something that is more convenient for development. Click the topmost button in the bar and start typing "displa...". Open the Displays app, adjust the screen resolution and click the (almost hidden) button to apply the changes. Either accept the resolution or change it again.
 
 #### Some preparation
 
-1. Check if you have _cmake_ installed. If not, install it:
+1. Open a terminal.
+
+2. Check if you have _cmake_ installed. If not, install it:
+
    ```
+   which cmake
+   sudo apt-get install cmake
    ```
-2. Check if you have _git_ installed. If not, install it:
+
+3. Check if you have _git_ installed. If not, install it:
+ 
    ```
+   which git
+   sudo apt-get install git
    ```
    
+#### Download Pintos
 
+1. 
