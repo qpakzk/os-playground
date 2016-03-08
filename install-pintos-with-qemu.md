@@ -30,11 +30,13 @@ _as of 2016-03-07_
 
 1. The virtual machine is called a _guest_. The extensions will give you, among other things, a resizeable display. The default resolution won't be useful for development. If you want, read more about them [here](https://www.virtualbox.org/manual/ch04.html).
 2. Install the dynamic kernel module support (DKMS) framework. Execute the following commands:
+
    ```
    sudo apt-get update
    sudo apt-get upgrade
    sudo apt-get install dkms
   ```
+
 3. Click on the small disk picture on the bottom bar of the virtual machine window. Click "Choose disk image" and select the _VBoxGuestAdditions_5.0.16.iso_ (downloaded earlier). **TODO: 5.0.16 errors out*** Ubuntu will recognize that you want to install the Guest Additions. Agree to the installation.
 4. After the installation, restart the machine.
 5. Now you can increase the resolution of the screen to something that is more convenient for development.
