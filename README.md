@@ -1,2 +1,2 @@
 # os-playground
-Operating systems odds and ends.
+Odds and ends for teaching Operating Systems.
