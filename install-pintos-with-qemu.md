@@ -1,6 +1,6 @@
 ### Installing Pintos and running in QEMU
 
-_as of 2016-03-08_
+_all versions as of 2016-03-08_
 
 * * *
 
