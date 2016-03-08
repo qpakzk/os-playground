@@ -145,7 +145,7 @@ _all versions as of 2016-03-08_
      gedit src/threads/Make.vars
      ```
      
-  2. Change Line 7 (last line) to `SIMULATOR = -qemu`. 
+  2. Change Line 7 (last line) to `SIMULATOR = --qemu`. 
 
   3. Save the file.
 
@@ -192,7 +192,21 @@ _all versions as of 2016-03-08_
    pintos run alarm-multiple
    ```
    
-8. 
+#### A little bit of housekeeping
+
+1. Add the `pintos` executable path to your $PATH environment variable.
+
+
+  1. Open an editor
+
+     ```
+     gedit ~/.bashrc
+     ```   
+     
+  2. Add the following line to the end of the file `export PATH=$PINTOS_ROOT/src/utils:$PATH`. Expand to absolute path.
+
+  3. Save the file and restart the terminal. You can now run `pintos ... ...` from anywhere.
+  
 
 #### Run the tests for Project 1: Threads
 
