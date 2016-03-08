@@ -35,6 +35,17 @@ _as of 2016-03-07_
    sudo apt-get upgrade
    sudo apt-get install dkms
   ```
-3. Click on the small disk picture on the bottom bar of the virtual machine window. Load the _VBoxGuestAdditions_5.0.16.iso_ (downloaded earlier) into the disk drive. Ubuntu will recognize that you want to install the Guest Additions.
-4. 
+3. Click on the small disk picture on the bottom bar of the virtual machine window. Load the _VBoxGuestAdditions_5.0.16.iso_ (downloaded earlier) into the disk drive. Ubuntu will recognize that you want to install the Guest Additions. Agree to the installation.
+4. After the installation, restart the machine.
+5. Now you can increase the resolution of the screen to something that is more convenient for development.
+
+#### Some preparation
+
+1. Check if you have _cmake_ installed. If not, install it:
+   ```
+   ```
+2. Check if you have _git_ installed. If not, install it:
+   ```
+   ```
+   
 
