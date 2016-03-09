@@ -7,5 +7,5 @@ Instructions for:
 2. Installing Pintos and running in Qemu ([qemu-n-pintos](https://github.com/ivogeorg/os-playground/blob/master/install-pintos-with-qemu.md)).
 3. Installing Pintos and running in Bochs or Qemu.
 4. Installing Java and CLion.
-5. Installing cmocka and running the C programming assignment.
+5. Installing cmocka and running the [C programming assignment](https://github.com/ivogeorg/denver-os-pa-c) ([cmocka-mem-pool](https://github.com/ivogeorg/os-playground/blob/master/cmocka-mem-pool)).
 
