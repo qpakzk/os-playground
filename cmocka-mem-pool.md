@@ -8,7 +8,9 @@ _all versions as of 2016-03-09_
 
 #### Installing the _cmocka_ unit testing framework for C
 
-#### C programming assignment
+
+
+#### Running the test suite for the C programming assignment
 
 
 
