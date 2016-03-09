@@ -62,7 +62,7 @@ _thanks to [Surya Seetharaman](https://tssurya.wordpress.com/2014/08/16/installi
 
 1. Open a terminal.
 
-2. _(optional)_ Check if you have _cmake_ installed. This is a toolset for building and packaging software. If you want to know more, check out the [website](https://cmake.org/). If not, install it:
+2. _(optional but useful for later)_ Check if you have _cmake_ installed. This is a toolset for building and packaging software. If you want to know more, check out the [website](https://cmake.org/). If not, install it:
 
    ```
    which cmake
