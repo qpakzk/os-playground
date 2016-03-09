@@ -58,7 +58,7 @@ _thanks to [Surya Seetharaman](https://tssurya.wordpress.com/2014/08/16/installi
 
 5. Now you can increase the resolution of the screen to something that is more convenient for development. Click the topmost button in the bar and start typing "displa...". Open the Displays app, adjust the screen resolution and click the (almost hidden) button to apply the changes. Either accept the resolution or change it again.
 
-#### Some preparation
+#### Various tools
 
 1. Open a terminal.
 
