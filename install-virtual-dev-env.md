@@ -2,9 +2,7 @@
 
 _host platform independent procedure_
 
-_all versions as of 2016-03-08_
-
-_thanks to [Surya Seetharaman](https://tssurya.wordpress.com/2014/08/16/installing-pintos-on-your-machine/) for his instructions_
+_all versions as of 2016-03-09_
 
 * * *
 
