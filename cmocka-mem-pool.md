@@ -6,7 +6,7 @@ _all versions as of 2016-03-09_
 
 * * *
 
-#### Unit testing framework for C _cmocka_
+#### Installing the _cmocka_ unit testing framework for C
 
 #### C programming assignment
 
