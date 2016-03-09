@@ -62,7 +62,7 @@ _thanks to [Surya Seetharaman](https://tssurya.wordpress.com/2014/08/16/installi
 
 1. Open a terminal.
 
-2. _(optional but useful for later)_ Check if you have _cmake_ installed. This is a toolset for building and packaging software. If you want to know more, check out the [website](https://cmake.org/). If not, install it:
+2. Check if you have _cmake_ installed. This is a toolset for building and packaging software. If you want to know more, check out the [website](https://cmake.org/). If not, install it:
 
    ```
    which cmake
@@ -70,7 +70,7 @@ _thanks to [Surya Seetharaman](https://tssurya.wordpress.com/2014/08/16/installi
    which cmake
    ```
 
-3. Check if you have _git_ installed. This is a VCS. If you want to know more, check out the [website](https://git-scm.com/). We'll need it to fetch Pintos. If not, install it:
+3. Check if you have _git_ installed. This is a VCS. If you want to know more, check out the [website](https://git-scm.com/). If not, install it:
  
    ```
    which git
@@ -78,7 +78,7 @@ _thanks to [Surya Seetharaman](https://tssurya.wordpress.com/2014/08/16/installi
    which git
    ```
    
-4. Check if you have _QEMU_ installed. This is a virtualizer/**emu**lator. If you want to know more, check out the [website](http://wiki.qemu.org/Main_Page). We'll need it to run Pintos in. If not, install it:
+4. Check if you have _QEMU_ installed. This is a virtualizer/**emu**lator. If you want to know more, check out the [website](http://wiki.qemu.org/Main_Page). If not, install it:
 
    ```
    which qemu-system-x86_64
