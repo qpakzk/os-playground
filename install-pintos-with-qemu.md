@@ -188,7 +188,7 @@ _thanks to [Surya Seetharaman](https://tssurya.wordpress.com/2014/08/16/installi
   
   5. Save the file.
 
-7. Run Pintos. This will a `qemu` window and run the _alarm-multiple_ test. Note that this ~~won't pass~~ the test, just run it.
+7. Run Pintos. This will a `qemu` window and run the _alarm-multiple_ test. Note that this **doesn't mean the test is passing**. It's just running.
 
    ```
    cd src/utils
