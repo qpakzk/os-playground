@@ -39,16 +39,16 @@ sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.9 60 --slave 
 
 2. Check the SHA sum and compare againt the value provided by the download page:
 
-```
-sha256sum ~/Downloads/clion-1.2.4.tar.gz
-```
+   ```
+   sha256sum ~/Downloads/clion-1.2.4.tar.gz
+   ```
 
 3. Unpack.
 
-```
-cd
-tar xfz ~/Downloads/clion-1.2.4.tar.gz
-```
+   ```
+   cd
+   tar xfz ~/Downloads/clion-1.2.4.tar.gz
+   ```
 
 4. Add the `~/clion-1.2.4/bin` directory to your `$PATH` variable.
 
