@@ -8,6 +8,10 @@ _thanks to [Surya Seetharaman](https://tssurya.wordpress.com/2014/08/16/installi
 
 * * *
 
+#### Prerequisites
+
+1. An installation as in [virtual-dev-env](https://github.com/ivogeorg/os-playground/blob/master/virtual-dev-env.md) or equivalent.
+
 #### Download Pintos
 
 1. Make a _git-repos_ directory in your home directory and clone the public Pintos repository inside it:
