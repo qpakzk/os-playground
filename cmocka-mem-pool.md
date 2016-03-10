@@ -6,6 +6,13 @@ _all versions as of 2016-03-09_
 
 * * *
 
+#### Prerequisites
+
+1. An installation as in [virual-dev-env](https://github.com/ivogeorg/os-playground/blob/master/virtual-dev-env.md) or equivalent.
+
+2. An installation as in [java-n-clion](https://github.com/ivogeorg/os-playground/edit/master/java-n-clion.md).
+
+
 #### Installing the _cmocka_ unit testing framework for C
 
 1. Download the generic Linux archive [cmocka-1.0.1.tar.xz](https://cmocka.org/files/1.0/cmocka-1.0.1.tar.xz).
