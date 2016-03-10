@@ -54,21 +54,21 @@ sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.9 60 --slave 
 
   1. Open an editor.
   
-  ```
-  gedit ~/.bashrc
-  ```
+     ```
+     gedit ~/.bashrc
+     ```
   
   2. Add the following line to the end of the file.
   
-  ```
-  export PATH=$HOME/clion-1.2.4/bin:$PATH
-  ```
+     ```
+     export PATH=$HOME/clion-1.2.4/bin:$PATH
+     ```
   
   3. Run from anywhere.
   
-  ```
-  clion.sh
-  ```
+     ```
+     clion.sh
+     ```
   
   4. When CLion opens, enter your account and/or license, and proceed with all the defaults. There are some optional tools you can install/enable.
   
