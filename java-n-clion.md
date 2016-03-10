@@ -6,6 +6,10 @@ _all versions as of 2016-03-09_
 
 * * *
 
+#### Prerequisites
+
+1. An installation as in [virual-dev-env](https://github.com/ivogeorg/os-playground/blob/master/virtual-dev-env.md) or equivalent.
+
 #### Install Java
 
 The [CLion IDE](https://www.jetbrains.com/clion/) requires a JVM to run. The follwoing installs Java 7. Not the latest, but enough for CLion.
