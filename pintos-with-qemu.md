@@ -144,3 +144,4 @@ cd src/threads/build
 make check
 ```
 
+_Note that some of the tests, especially the MLFQS ones, take long to run, since they need to timeout. Some of the tests pass right off the back, you might break them as you start work._
