@@ -141,7 +141,7 @@ _thanks to [Surya Seetharaman](https://tssurya.wordpress.com/2014/08/16/installi
 
 ```
 cd src/threads/build
-make check
+make check VERBOSE=1
 ```
 
 _Note that some of the tests, especially the MLFQS ones, take long to run, since they need to timeout when the functionality they test is not implemented. Some of the tests pass right off the bat, but you might break them when you start work._
