@@ -144,4 +144,19 @@ cd src/threads/build
 make check VERBOSE=1
 ```
 
-_Note that some of the tests, especially the MLFQS ones, take long to run, since they need to timeout when the functionality they test is not implemented. Some of the tests pass right off the bat, but you might break them when you start work._
+_Note that some of the tests, especially the MLFQS ones, take long to run, since they need to gather statistics. Some of the tests pass right off the bat, but you might break them when you start work._
+
+#### Run the tests for Project 2: User Programs
+
+```
+cd src/userprog/build
+make check VERBOSE=1
+```
+_Note that the disc creation command syntax has changed since the early days of Pintos and is now:_
+
+```
+pintos-mkdisk filesys.dsk --filesys-size=2
+pintos -f -q
+pintos -p ../../examples/echo -a echo -- -q
+pintos -q run ’echo x’
+```
