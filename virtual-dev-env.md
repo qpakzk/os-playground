@@ -20,9 +20,9 @@ _all versions as of 2017-02-27_
 
 #### Create an Ubuntu virtual machine
 
-1. Open the desktop download site http://www.ubuntu.com/download/desktop.
+1. Open the desktop download site http://www.ubuntu.com/download/desktop. This is the _desktop_ version, rather than the _server_.
 
-2. Download the latest 64-bit ISO image. As of this writing, this is 16.04.2 LTS. LTS stands for long-term support.
+2. Download the latest 64-bit ISO image. As of this writing, that is Ubuntu 16.04.2 LTS. LTS stands for long-term support.
 
 3. Open VirtualBox and create a new machine. Give it a name and select **Linux** and **Ubuntu 64-bit**.
 
@@ -52,9 +52,9 @@ _all versions as of 2017-02-27_
    sudo apt-get install dkms
   ```
 
-3. Click on the small disk picture on the bottom bar of the virtual machine window. Click "Choose disk image" and select the _VBoxGuestAdditions_5.0.16.iso_ (downloaded earlier). Ubuntu will recognize that you want to install the Guest Additions. Agree to the installation.
+3. Click on the small disk picture on the bottom bar of the virtual machine window. Click "Choose disk image" and select the _VBoxGuestAdditions_5.1.14.iso_ (downloaded earlier). Ubuntu will recognize that you want to install the Guest Additions. Agree to the installation.
 
-4. After the installation, eject the disk from the left-hand menu bar, and restart the machine.
+4. After the installation, "eject" the disk from the left-hand menu bar, and restart the machine.
 
 5. Now you can increase the resolution of the screen to something that is more convenient for development. Click the topmost button in the bar and start typing "displa...". Open the Displays app, adjust the screen resolution and click the (almost hidden) button to apply the changes. Either accept the resolution or change it again.
 
@@ -62,7 +62,7 @@ _all versions as of 2017-02-27_
 
 1. Open a terminal.
 
-2. Check if you have _cmake_ installed. This is a toolset for building and packaging software. If you want to know more, check out the [website](https://cmake.org/). If not, install it:
+2. Check if you have _cmake_ installed. This is a toolset for building and packaging software. If you want to know more, check out the [website](https://cmake.org/). If you don't have it, install it:
 
    ```
    which cmake
@@ -70,7 +70,7 @@ _all versions as of 2017-02-27_
    which cmake
    ```
 
-3. Check if you have _git_ installed. This is a VCS. If you want to know more, check out the [website](https://git-scm.com/). If not, install it:
+3. Check if you have _git_ installed. This is a VCS. If you want to know more, check out the [website](https://git-scm.com/). If you don't have it, install it:
  
    ```
    which git
@@ -78,7 +78,7 @@ _all versions as of 2017-02-27_
    which git
    ```
    
-4. Check if you have _QEMU_ installed. This is a virtualizer/**emu**lator. If you want to know more, check out the [website](http://wiki.qemu.org/Main_Page). If not, install it:
+4. Check if you have _QEMU_ installed. This is a virtualizer/**emu**lator. If you want to know more, check out the [website](http://www.qemu-project.org/). If you don't have it, install it:
 
    ```
    which qemu-system-x86_64
