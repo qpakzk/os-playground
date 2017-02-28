@@ -22,7 +22,7 @@ _all versions as of 2017-02-27_
 
 1. Open the desktop download site http://www.ubuntu.com/download/desktop.
 
-2. Download the latest 64-bit ISO image. As of this writing, this is LTS 14.04.4.
+2. Download the latest 64-bit ISO image. As of this writing, this is 16.04.2 LTS. LTS stands for long-term support.
 
 3. Open VirtualBox and create a new machine. Give it a name and select **Linux** and **Ubuntu 64-bit**.
 
@@ -30,13 +30,13 @@ _all versions as of 2017-02-27_
 
 5. When asked to _try_ or _install_ Ubuntu, select _install_.
 
-6. Create a username and password. Select _Log in automatically_.
+6. Create the username `pintos` and a password of your choice. Select _Log in automatically_.
 
 7. All installation defaults should be fine. Restart the machine when done.
 
 #### Some housekeeping
 
-1. Install the Ubuntu updates. There is a green button with an A. Click on it, provide the password and let it install.
+1. Install the Ubuntu updates. There is a green button with an A in the vertical bar. Click on it, provide the password and let it install.
 
 2. Open a terminal. Click on the topmost button on the left and start typing "termin...". Click on the Terminal app. When it opens, there will be a terminal button in the menu. Right-click and select "Lock to the tray". Next time you can open from there.
 
