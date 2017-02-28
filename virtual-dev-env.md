@@ -60,7 +60,7 @@ _all versions as of 2017-02-27_
 
 1. Open a terminal.
 
-2. Check if you have _cmake_ installed. This is a toolset for building and packaging software. If you want to know more, check out the [website](https://cmake.org/). If you don't have it, install it:
+2. Check if you have _cmake_ installed. This is a toolset for building and packaging software. If you want to know more, check out the [CMake](https://cmake.org/) webpage. If you don't have it, install it:
 
    ```
    which cmake
@@ -68,7 +68,7 @@ _all versions as of 2017-02-27_
    which cmake
    ```
 
-3. Check if you have _git_ installed. This is a VCS. If you want to know more, check out the [website](https://git-scm.com/). If you don't have it, install it:
+3. Check if you have _git_ installed. This is a VCS. If you want to know more, check out the [git](https://git-scm.com/) webpage. If you don't have it, install it:
  
    ```
    which git
@@ -76,7 +76,7 @@ _all versions as of 2017-02-27_
    which git
    ```
    
-4. Check if you have _QEMU_ installed. This is a virtualizer/**emu**lator. If you want to know more, check out the [website](http://www.qemu-project.org/). If you don't have it, install it:
+4. Check if you have _QEMU_ installed. This is a virtualizer/**emu**lator. If you want to know more, check out the [QEMU](http://www.qemu-project.org/) webpage. If you don't have it, install it:
 
    ```
    which qemu-system-x86_64
