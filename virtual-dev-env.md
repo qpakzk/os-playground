@@ -1,8 +1,10 @@
 ### Installing Pintos and running in QEMU
 
+**UNDER DEVELOPENT (2017-02-27)**
+
 _host platform independent procedure_
 
-_all versions as of 2016-03-09_
+_all versions as of 2017-02-27_
 
 * * *
 
