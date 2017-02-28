@@ -1,7 +1,5 @@
 ### Installing Pintos and running in QEMU
 
-**UNDER DEVELOPENT (2017-02-27)**
-
 _host platform independent procedure_
 
 _all versions as of 2017-02-27_
@@ -22,7 +20,7 @@ _all versions as of 2017-02-27_
 
 1. Open the desktop download site http://www.ubuntu.com/download/desktop. This is the _desktop_ version, rather than the _server_.
 
-2. Download the latest 64-bit ISO image. As of this writing, that is Ubuntu 16.04.2 LTS. LTS stands for long-term support.
+2. Download the latest 64-bit ISO image. As of this writing, that is Ubuntu 16.04.2 LTS. Read [here](https://wiki.ubuntu.com/LTS) about long-term support (LTS).
 
 3. Open VirtualBox and create a new machine. Give it a name and select **Linux** and **Ubuntu 64-bit**.
 
