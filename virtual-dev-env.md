@@ -12,7 +12,7 @@ _all versions as of 2017-02-27_
 
 1. Open the downloads directory http://download.virtualbox.org/virtualbox/.
 
-2. As of this writing, the latest version is 5.0.16. Open http://download.virtualbox.org/virtualbox/5.0.16/.
+2. As of this writing, the latest version is 5.1.14. Open http://download.virtualbox.org/virtualbox/5.1.14/.
 
 3. Download the installation image for your platform. Install.
 
