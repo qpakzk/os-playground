@@ -16,7 +16,7 @@ _all versions as of 2017-02-27_
 
 3. Download the installation image for your platform. Install.
 
-4. Also download the guest extensions ISO VBoxGuestAdditions_5.0.16.iso. It's the same for all platforms.
+4. Also download the guest extensions ISO VBoxGuestAdditions_5.1.14.iso. It's the same for all platforms.
 
 #### Create an Ubuntu virtual machine
 
