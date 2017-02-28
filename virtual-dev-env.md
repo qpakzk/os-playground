@@ -28,9 +28,9 @@ _all versions as of 2017-02-27_
 
 4. Start the machine. When asked for the installation image, point to the ISO image you donwloaded and continue.
 
-5. When asked to _try_ or _install_ Ubuntu, select _install_.
+5. When asked to _Try_ or _Install_ Ubuntu, select _Install_. You can check the box to _"Download updates while installing Ubuntu"_. Choose to _"Erase disk and install Ubuntu"_. This is a virtual disk, not your hard drive. Confirm the installation when asked.
 
-6. Create the username `pintos` and a password of your choice. Select _Log in automatically_.
+6. Create the username `pintos` and a password of your choice. Select _Log in automatically_. I suggest **Pintos Developer** as your name, **vb-ubuntu-pintos** as your computer's name, and **pintos2017** as password. The password doesn't have to be good, since this virtual machine will only be used for development on publically available code. _**Note:** Please, do not publish your solutions, since that degrades Pintos as an educational resource for others._
 
 7. All installation defaults should be fine. Restart the machine when done.
 
