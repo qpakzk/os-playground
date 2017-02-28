@@ -58,7 +58,7 @@ _all versions as of 2017-02-27_
 
 #### Various tools
 
-1. Open a terminal.
+1. Open a terminal on your Ubuntu guest in VirtualBox.
 
 2. Check if you have _cmake_ installed. This is a toolset for building and packaging software. If you want to know more, check out the [CMake](https://cmake.org/) webpage. If you don't have it, install it:
 
