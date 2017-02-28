@@ -8,13 +8,15 @@ _all versions as of 2017-02-27_
 
 #### Install VirtualBox
 
-1. Open the downloads directory http://download.virtualbox.org/virtualbox/.
+1. VirtualBox is an open-source [virtualizer](https://www.virtualbox.org/wiki/Virtualization). Essentially, it is an application running under you operating system (called the _host_) that allows you to run various other operating systems (called _guests_).
 
-2. As of this writing, the latest version is 5.1.14. Open http://download.virtualbox.org/virtualbox/5.1.14/.
+2. Open the downloads directory http://download.virtualbox.org/virtualbox/.
 
-3. Download the installation image for your platform. Install.
+3. As of this writing, the latest version is 5.1.14. Open http://download.virtualbox.org/virtualbox/5.1.14/.
 
-4. Also download the guest extensions disc image *VBoxGuestAdditions_5.1.14.iso*. It's the same for all platforms.
+4. Download the installation image for your platform. Install.
+
+5. Also download the guest extensions disc image *VBoxGuestAdditions_5.1.14.iso*. It's the same for all platforms.
 
 #### Create an Ubuntu virtual machine
 
