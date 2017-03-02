@@ -82,7 +82,6 @@ _all versions as of 2017-02-27_
 
    ```
    which qemu-system-x86_64
-   sudo apt-get install qemu-system
+   sudo apt-get install qemu
    which qemu-system-x86_64
    ```
-   
