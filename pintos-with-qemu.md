@@ -2,35 +2,29 @@
 
 _host platform independent procedure_
 
-_all versions as of 2016-03-09_
-
-_thanks to [Surya Seetharaman](https://tssurya.wordpress.com/2014/08/16/installing-pintos-on-your-machine/) for his instructions_
+_all versions as of 2017-03-02_
 
 * * *
 
 #### Prerequisites
 
-1. An installation as in [virtual-dev-env](https://github.com/ivogeorg/os-playground/blob/master/virtual-dev-env.md) or equivalent.
+1. An installation as in [virtual-dev-env](https://github.com/ivogeorg/os-playground/blob/master/virtual-dev-env.md) or equivalent. Assuming a user called `pintos` with home directory `/home/pintos`.
 
 #### Download Pintos
 
-1. Make a _git-repos_ directory in your home directory and clone the public Pintos repository inside it:
-
+1. The public Pintos repository is [here](http://pintos-os.org/cgi-bin/gitweb.cgi?p=pintos-anon;a=summary). Clone it to the home directory, giving it the name `pintos`.
    ```
-   cd
-   mkdir git-repos
-   cd git-repos
-   git clone git://pintos-os.org/pintos-anon
-   cd pintos-anon
+   cd ~
+   git clone git://pintos-os.org/pintos-anon pintos
    ```
 
-2. Now you are in `$HOME/git-repos/pintos-anon` where `$HOME` is your home directory. To see the value of the environment variable `$HOME`:
+2. Now you are in `$HOME/pintos` where `$HOME` is your home directory. This is `/home/pintos/pintos` if you followed the intallation instructions in [virtual-dev-env](https://github.com/ivogeorg/os-playground/blob/master/virtual-dev-env.md). To see the value of the environment variable `$HOME`:
 
    ```
    echo $HOME
    ```
    
-3. We'll informally refer to this directory as `$PINTOS_ROOT` thought we don't have to have such an environment variable. All subsequent instructions assume that you start out in this directory. For me, this directory resolves to the absolute path `/home/ivogeorg/git-repos/pintos-anon`. Remember to expand it into the absolute path wherever it is referenced in a file.
+3. We'll informally refer to this directory as `$PINTOS_ROOT` though we don't have to have such an environment variable. Paths in all the following instructions are relative to this directory. If you followed the installation instructions, this directory is the absolute path `/home/pintos/pintos`. Remember to expand it into the absolute path wherever it is referenced in a file.
    
 #### Configure and build Pintos
 
@@ -39,7 +33,7 @@ _thanks to [Surya Seetharaman](https://tssurya.wordpress.com/2014/08/16/installi
   1. Open an editor
 
      ```
-     gedit src/utils/pintos-gdb
+     vim src/utils/pintos-gdb
      ```
 
   2. Change Line 4 to `GDBMACROS=$PINTOS_ROOT/src/misc/gdb-macros`. Expand into absolute path. 
@@ -51,7 +45,7 @@ _thanks to [Surya Seetharaman](https://tssurya.wordpress.com/2014/08/16/installi
   1. Open an editor
 
      ```
-     gedit src/utils/Makefile
+     vim src/utils/Makefile
      ```
      
   2. Change Line 5 to `LDLIBS = -lm`. 
@@ -63,7 +57,6 @@ _thanks to [Surya Seetharaman](https://tssurya.wordpress.com/2014/08/16/installi
    ```
    cd src/utils
    make
-   cd ../..
    ```
    
 4. Set simulator to `qemu` in the file `$PINTOS_ROOT/src/threads/Make.vars`.
@@ -71,7 +64,7 @@ _thanks to [Surya Seetharaman](https://tssurya.wordpress.com/2014/08/16/installi
   1. Open an editor
 
      ```
-     gedit src/threads/Make.vars
+     vim src/threads/Make.vars
      ```
      
   2. Change Line 7 (last line) to `SIMULATOR = --qemu`. 
@@ -83,7 +76,6 @@ _thanks to [Surya Seetharaman](https://tssurya.wordpress.com/2014/08/16/installi
    ```
    cd src/threads
    make
-   cd ../..
    ```
    
 6. Edit the file `$PINTOS_ROOT/src/utils/pintos`, which is a Perl script.
@@ -91,7 +83,7 @@ _thanks to [Surya Seetharaman](https://tssurya.wordpress.com/2014/08/16/installi
   1. Open an editor
 
      ```
-     gedit src/utils/pintos
+     vim src/utils/pintos
      ```
      
   2. Change Line 103 to `$sim = “qemu” if !defined $sim;` to use QEMU as the simulator. Preserve the indentation. 
@@ -114,11 +106,11 @@ _thanks to [Surya Seetharaman](https://tssurya.wordpress.com/2014/08/16/installi
   
   5. Save the file.
 
-7. Run Pintos. This will a `qemu` window and run the _alarm-multiple_ test. Note that this **doesn't mean the test is passing**. It's just running.
+7. Run Pintos. The following will open a Qemu terminal window and run the _alarm-multiple_ test. Note that this **doesn't mean the test is passing**. It's just running. You can just close the Qemu terminal when the test execution completes.
 
    ```
    cd src/utils
-   pintos run alarm-multiple
+   ./pintos run alarm-multiple
    ```
    
 #### A little bit of housekeeping
