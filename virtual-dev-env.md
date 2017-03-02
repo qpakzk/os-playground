@@ -52,11 +52,11 @@ _all versions as of 2017-02-27_
    sudo apt-get install dkms
   ```
 
-3. Click on the small disk picture on the bottom bar of the virtual machine window. Click "Choose disk image" and select the _VBoxGuestAdditions_5.1.14.iso_ (downloaded earlier). Ubuntu will recognize that you want to install the Guest Additions. Agree to the installation.
+3. Click on the small disk picture in the bottom bar of the virtual machine window. Click "Choose disk image" and select the _VBoxGuestAdditions_5.1.14.iso_ (downloaded earlier). Ubuntu will recognize that you want to install the Guest Additions. Agree to the installation.
 
-4. After the installation, "eject" the disk from the left-hand menu bar, and restart the machine.
+4. After the installation, "eject" the virtual disk from the left-hand menu bar, or the same disc icon in the bottom bar, and restart the guest OS.
 
-5. Now you can increase the resolution of the screen to something that is more convenient for development. Click the topmost button in the bar and start typing "displa...". Open the Displays app, adjust the screen resolution and click the (almost hidden) button to apply the changes. Either accept the resolution or change it again.
+5. Now you can increase the resolution of the screen to something that is more convenient for development. Click the topmost button in the bar and start typing "displa...". Open the Displays app, adjust the screen resolution and click the (possibly partially hidden) button to apply the changes. Either accept the resolution or change it again. Don't get greedy with the resolution as it may load your CPU excessively.
 
 #### Various tools
 
