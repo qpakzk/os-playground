@@ -8,7 +8,7 @@ _all versions as of 2017-03-02_
 
 #### Prerequisites
 
-1. An installation as in [virtual-dev-env](https://github.com/ivogeorg/os-playground/blob/master/virtual-dev-env.md) or equivalent. Assuming a user called `pintos` with home directory `/home/pintos`.
+1. An installation as in [virtual-dev-env](https://github.com/ivogeorg/os-playground/blob/master/virtual-dev-env.md) or equivalent. Assuming a user called `pintos` with home directory `/home/pintos`. All the following commands are meant to be executed on the command line of a terminal window.
 
 #### Download Pintos
 
@@ -86,11 +86,11 @@ _all versions as of 2017-03-02_
      vim src/utils/pintos
      ```
      
-  2. Change Line 103 to `$sim = “qemu” if !defined $sim;` to use QEMU as the simulator. Preserve the indentation. 
+  2. Change line **103** to `$sim = “qemu” if !defined $sim;` to use QEMU as the simulator. Preserve the indentation. 
 
-  3. Change `kernel.bin` on Line 257 to `$KERNEL_ROOT/src/threads/build/kernel.bin`. Expand to absolute path.
+  3. Change `kernel.bin` on line **257** to `$KERNEL_ROOT/src/threads/build/kernel.bin`. Expand to absolute path.
   
-  4. Change `qemu-system-i386` on Line 621 to `qemu-system-x86_64`.
+  4. Change `qemu-system-i386` on line **621** to `qemu-system-x86_64`.
   
   5. Save the file.
 
@@ -121,10 +121,10 @@ _all versions as of 2017-03-02_
   1. Open an editor
 
      ```
-     gedit ~/.bashrc
+     vim ~/.bashrc
      ```   
      
-  2. Add the following line to the end of the file `export PATH=$PINTOS_ROOT/src/utils:$PATH`. Expand to absolute path.
+  2. Add the following line to the end of the file `export PATH=$PINTOS_ROOT/src/utils:$PATH`. Expand to absolute path. Reopen the terminal.
 
   3. Save the file and restart the terminal. You can now run `pintos ... ...` from anywhere.
   
