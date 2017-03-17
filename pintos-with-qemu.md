@@ -1,6 +1,7 @@
 ### Installing Pintos and running in QEMU
 
 _host platform independent procedure_
+_linux user independent procedure for streamlined grading_
 
 _all versions as of 2017-03-02_
 
@@ -8,7 +9,7 @@ _all versions as of 2017-03-02_
 
 #### Prerequisites
 
-1. An installation as in [virtual-dev-env](https://github.com/ivogeorg/os-playground/blob/master/virtual-dev-env.md) or equivalent. Assuming a user called `pintos` with home directory `/home/pintos`. All the following commands are meant to be executed on the command line of a terminal window.
+1. An installation as in [virtual-dev-env](https://github.com/ivogeorg/os-playground/blob/master/virtual-dev-env.md) or equivalent. Assuming a user called `pintos` with home directory `/home/pintos` (on Ubuntu). All the following commands are meant to be executed on the command line in a terminal window.
 
 #### Download Pintos
 
