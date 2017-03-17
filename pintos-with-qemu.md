@@ -154,7 +154,7 @@ To create a disk for the pintos filesystem for the _userprog_, _vm_, and _filesy
 cd ~/pintos/src/userprog/build
 pintos-mkdisk filesys.dsk --filesys-size=2
 ```
-The following command, which causes the disk to be formatted with a filesystem partition, depends on pintos being built under `userprog/`.
+The following command, which causes the disk to be formatted with a filesystem partition, depends on pintos having been built under `userprog/`.
 ```
 pintos -f -q
 ```
