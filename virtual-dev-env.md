@@ -45,12 +45,11 @@ _all versions as of 2017-02-27_
 1. The virtual machine is called a _guest_. The extensions will give you, among other things, a resizeable display. The default resolution won't be useful for development. If you want, read more about them [here](https://www.virtualbox.org/manual/ch04.html).
 
 2. Install the dynamic kernel module support (DKMS) framework. Execute the following commands:
-
-   ```
-   sudo apt-get update
-   sudo apt-get upgrade
-   sudo apt-get install dkms
-  ```
+```
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install dkms
+```
 
 3. Click on the small disk picture in the bottom bar of the virtual machine window. Click "Choose disk image" and select the _VBoxGuestAdditions_5.1.14.iso_ (downloaded earlier). Ubuntu will recognize that you want to install the Guest Additions. Agree to the installation.
 
@@ -62,26 +61,15 @@ _all versions as of 2017-02-27_
 
 1. Open a terminal on your Ubuntu guest in VirtualBox.
 
-2. Check if you have _cmake_ installed. This is a toolset for building and packaging software. If you want to know more, check out the [CMake](https://cmake.org/) webpage. If you don't have it, install it:
-
-   ```
-   which cmake
-   sudo apt-get install cmake
-   which cmake
-   ```
-
-3. Check if you have _git_ installed. This is a VCS. If you want to know more, check out the [git](https://git-scm.com/) webpage. If you don't have it, install it:
- 
-   ```
-   which git
-   sudo apt-get install git
-   which git
-   ```
-   
-4. Check if you have _QEMU_ installed. This is a virtualizer/**emu**lator. If you want to know more, check out the [QEMU](http://www.qemu-project.org/) webpage. If you don't have it, install it:
-
-   ```
-   which qemu-system-x86_64
-   sudo apt-get install qemu
-   which qemu-system-x86_64
-   ```
+2. Check if you have _git_ installed. This is a VCS. If you want to know more, check out the [git](https://git-scm.com/) webpage. If you don't have it, install it: 
+```
+which git
+sudo apt-get install git
+which git
+```
+3. Check if you have _QEMU_ installed. This is a virtualizer/**emu**lator. If you want to know more, check out the [QEMU](http://www.qemu-project.org/) webpage. If you don't have it, install it:
+```
+which qemu-system-x86_64
+sudo apt-get install qemu
+which qemu-system-x86_64
+```
