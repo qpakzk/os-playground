@@ -139,8 +139,13 @@ make check VERBOSE=1
 _Note that some of the tests, especially the MLFQS ones, take long to run, since they need to gather statistics. Some of the tests pass right off the bat, but you might break them when you start work._
 
 #### Run the tests for Project 2: User Programs
-
+The following command line sequence includes a full clean of _threads_ before you build _userprog_.
 ```
+cd ~/pintos
+make clean
+cd src/userprog
+make
+cd build
 cd src/userprog/build
 make check VERBOSE=1
 ```
