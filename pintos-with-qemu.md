@@ -102,7 +102,7 @@ _all versions as of 2017-03-02_
      gedit src/utils/Pintos.pm
      ```
      
-  2. Change `loader.bin` on Line 362 to `$KERNEL_ROOT/src/threads/build/loader.bin`. Expand to absolute path.
+  2. Change `loader.bin` on Line **362** to `$KERNEL_ROOT/src/threads/build/loader.bin`. Expand to absolute path.
   
   5. Save the file.
 
