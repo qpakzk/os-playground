@@ -139,21 +139,27 @@ make check VERBOSE=1
 _Note that some of the tests, especially the MLFQS ones, take long to run, since they need to gather statistics. Some of the tests pass right off the bat, but you might break them when you start work._
 
 #### Run the tests for Project 2: User Programs
-The following command line sequence includes a full clean of _threads_ before you build _userprog_.
+The following command line sequence includes a full clean of _threads_ before you build _userprog_. 
 ```
 cd ~/pintos
 make clean
 cd src/userprog
 make
 cd build
-cd src/userprog/build
 make check VERBOSE=1
 ```
-_Note that the disc creation command syntax has changed since the early days of Pintos and is now:_
+To create a disk for the pintos filesystem for the _userprog_, _vm_, and _filesys_ projects, you need to have built the kernel under `userprog/`:
 
 ```
+cd ~/pintos/src/userprog/build
 pintos-mkdisk filesys.dsk --filesys-size=2
 pintos -f -q
+```
+To load and run the example user programs, you need to build them first:
+```
+cd ~/pintos/src/examples
+make
+cd ~/pintos/userprog/build
 pintos -p ../../examples/echo -a echo -- -q
 pintos -q run ’echo x’
 ```
