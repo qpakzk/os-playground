@@ -1,4 +1,4 @@
-### Installing Pintos and running in QEMU
+# Installing Pintos and running in QEMU
 
 _host platform independent procedure_
 
@@ -6,7 +6,7 @@ _all versions as of 2018-01-16_
 
 * * *
 
-#### Install VirtualBox
+## Install VirtualBox
 
 1. VirtualBox is an open-source [virtualizer](https://www.virtualbox.org/wiki/Virtualization). Essentially, it is an application running under you operating system (called the _host_) that allows you to run various other operating systems (called _guests_).
 
@@ -18,7 +18,7 @@ _all versions as of 2018-01-16_
 
 5. Also download the guest extensions disc image *VBoxGuestAdditions_5.2.6.iso*. It's the same for all platforms.
 
-#### Create an Ubuntu virtual machine
+## Create an Ubuntu virtual machine
 
 1. Open the desktop download site http://www.ubuntu.com/download/desktop. This is the _desktop_ version, rather than the _server_.
 
@@ -34,13 +34,13 @@ _all versions as of 2018-01-16_
 
 7. All installation defaults should be fine. Restart the machine when done.
 
-#### Some housekeeping
+## Some housekeeping
 
 1. Install the Ubuntu updates. There is a green button with an A in the vertical bar. Click on it, provide the password and let it install.
 
 2. Open a terminal. Click on the topmost button on the left and start typing "termin...". Click on the Terminal app. When it opens, there will be a terminal button in the menu. Right-click and select "Lock to the tray". Next time you can open from there.
 
-#### Install the guest additions
+## Install the guest additions
 
 1. The virtual machine is called a _guest_. The extensions will give you, among other things, a resizeable display. The default resolution won't be useful for development. If you want, read more about them [here](https://www.virtualbox.org/manual/ch04.html).
 
@@ -63,7 +63,7 @@ sudo apt-get install virtualbox-guest-dkms
 
 6. Now you can increase the resolution of the screen to something that is more convenient for development. Click the topmost button in the bar and start typing "displa...". Open the Displays app, adjust the screen resolution and click the (possibly partially hidden) button to apply the changes. Either accept the resolution or change it again. Don't get greedy with the resolution as it may load your CPU excessively.
 
-#### Various tools
+## Various tools
 
 1. Open a terminal on your Ubuntu guest in VirtualBox.
 
