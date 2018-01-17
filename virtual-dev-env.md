@@ -2,7 +2,7 @@
 
 _host platform independent procedure_
 
-_all versions as of 2017-02-27_
+_all versions as of 2018-01-16_
 
 * * *
 
@@ -12,25 +12,25 @@ _all versions as of 2017-02-27_
 
 2. Open the downloads directory http://download.virtualbox.org/virtualbox/.
 
-3. As of this writing, the latest version is 5.1.14. Open http://download.virtualbox.org/virtualbox/5.1.14/.
+3. As of this writing, the latest version is 5.2.6. Open http://download.virtualbox.org/virtualbox/5.2.6/.
 
 4. Download the installation image for your platform. Install.
 
-5. Also download the guest extensions disc image *VBoxGuestAdditions_5.1.14.iso*. It's the same for all platforms.
+5. Also download the guest extensions disc image *VBoxGuestAdditions_5.2.6.iso*. It's the same for all platforms.
 
 #### Create an Ubuntu virtual machine
 
 1. Open the desktop download site http://www.ubuntu.com/download/desktop. This is the _desktop_ version, rather than the _server_.
 
-2. Download the latest 64-bit ISO image. As of this writing, that is Ubuntu 16.04.2 LTS. Read [here](https://wiki.ubuntu.com/LTS) about long-term support (LTS).
+2. Download the latest 64-bit ISO image. As of this writing, that is Ubuntu 16.04.3 LTS. Read [here](https://wiki.ubuntu.com/LTS) about long-term support (LTS).
 
 3. Open VirtualBox and create a new machine. Give it a name and select **Linux** and **Ubuntu 64-bit**.
 
 4. Start the machine. When asked for the installation image, point to the ISO image you donwloaded and continue.
 
-5. When asked to _Try_ or _Install_ Ubuntu, select _Install_. You can check the box to _"Download updates while installing Ubuntu"_. Choose to _"Erase disk and install Ubuntu"_. This is a virtual disk, not your hard drive. Confirm the installation when asked.
+5. When asked to _Try_ or _Install_ Ubuntu, select _Install_. You can check the box to _"Download updates while installing Ubuntu"_. Choose to _"Erase disk and install Ubuntu"_. This is a virtual disk image, not your hard drive. Confirm the installation when asked.
 
-6. Create the username `pintos` and a password of your choice. Select _Log in automatically_. I suggest **Pintos Developer** as your name, **vb-ubuntu-pintos** as your computer's name, and **pintos2017** as password. The password doesn't have to be good, since this virtual machine will only be used for development on publically available code. _**Note:** Please, do not publish your solutions, since that degrades Pintos as an educational resource for others._
+6. Create the username `pintos` and a password of your choice. Select _Log in automatically_. I suggest **OS Developer** as your name, **os-dev** as your computer's name, and **pintos2018** as password. The password doesn't have to be good, since this virtual machine will only be used for development on publically available code. _**Note:** Please, do not publish your solutions, since that degrades Pintos as an educational resource for others worldwide._
 
 7. All installation defaults should be fine. Restart the machine when done.
 
@@ -49,13 +49,19 @@ _all versions as of 2017-02-27_
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get install dkms
+sudo apt-get install linux-headers-virtual
 ```
 
-3. Click on the small disk picture in the bottom bar of the virtual machine window. Click "Choose disk image" and select the _VBoxGuestAdditions_5.1.14.iso_ (downloaded earlier). Ubuntu will recognize that you want to install the Guest Additions. Agree to the installation.
+3. The guest additions can be installed from the command line.
+```
+sudo apt-get install virtualbox-guest-dkms
+```
 
-4. After the installation, "eject" the virtual disk from the left-hand menu bar, or the same disc icon in the bottom bar, and restart the guest OS.
+4. Alternatively, click on the small disk picture in the bottom bar of the virtual machine window. Click "Choose disk image" and select the _VBoxGuestAdditions_5.2.6.iso_ (downloaded earlier). Ubuntu will recognize that you want to install the Guest Additions. Agree to the installation.
 
-5. Now you can increase the resolution of the screen to something that is more convenient for development. Click the topmost button in the bar and start typing "displa...". Open the Displays app, adjust the screen resolution and click the (possibly partially hidden) button to apply the changes. Either accept the resolution or change it again. Don't get greedy with the resolution as it may load your CPU excessively.
+5. After the installation, "eject" the virtual disk from the left-hand menu bar, or the same disc icon in the bottom bar, and restart the guest OS.
+
+6. Now you can increase the resolution of the screen to something that is more convenient for development. Click the topmost button in the bar and start typing "displa...". Open the Displays app, adjust the screen resolution and click the (possibly partially hidden) button to apply the changes. Either accept the resolution or change it again. Don't get greedy with the resolution as it may load your CPU excessively.
 
 #### Various tools
 
