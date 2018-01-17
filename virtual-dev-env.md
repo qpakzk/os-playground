@@ -1,8 +1,8 @@
-# Installing Pintos and running in QEMU
+# Installing a Virtual Machine in VirtualBox
 
 _host platform independent procedure_
 
-_all versions as of 2018-01-16_
+_all versions current as of 2018-01-16_
 
 * * *
 
