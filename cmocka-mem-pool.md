@@ -1,4 +1,4 @@
-### Installing _cmocka_ and running the C programming assigment
+### Installing _cmocka_ and running the C programming assignment
 
 _host platform independent procedure_
 
