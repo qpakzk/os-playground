@@ -33,14 +33,14 @@ The default `gcc` version installed on the Ubuntu desktop (16.04.3 LTS) is 5.4. 
 2. Check the SHA sum and compare againt the value provided by the download page:
 
    ```
-   sha256sum ~/Downloads/clion-1.2.4.tar.gz
+   sha256sum ~/Downloads/CLion-2017.3.2.tar.gz
    ```
 
 3. Unpack.
 
    ```
    cd
-   tar xfz ~/Downloads/clion-1.2.4.tar.gz
+   tar xfz ~/Downloads/CLion-2017.3.2.tar.gz
    ```
 
 4. Add the `~/clion-1.2.4/bin` directory to your `$PATH` variable.
@@ -54,7 +54,7 @@ The default `gcc` version installed on the Ubuntu desktop (16.04.3 LTS) is 5.4. 
   2. Add the following line to the end of the file.
   
      ```
-     export PATH=$HOME/clion-1.2.4/bin:$PATH
+     export PATH=$HOME/clion-2017.3.2/bin:$PATH
      ```
   
   3. Run from anywhere.
@@ -65,7 +65,7 @@ The default `gcc` version installed on the Ubuntu desktop (16.04.3 LTS) is 5.4. 
   
   4. When CLion opens, enter your account and/or license, and proceed with all the defaults. There are some optional tools you can install/enable.
   
-  5. When CLion opens, its icon will appear in the left-hand bar. You can right-click and select "Lock to Launcher".
+  5. When CLion opens, its icon will appear in the left-hand bar. You can right-click and select "Lock to Launcher". The current version actually asks you if you want to create a menu icon.
   
   6. If you have installed the optional tools, it is likely that CLion will default to a _Vim emulation mode_. `vi`/`vim` is one of the most popular editors with Linux geeks. Unless you have experience with it, it can be confusing. You can turn it off by going to **Tools-->Vim Emulator**.
   
