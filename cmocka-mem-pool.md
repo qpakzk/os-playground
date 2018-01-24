@@ -2,7 +2,7 @@
 
 _host platform independent procedure_
 
-_all versions as of 2016-03-09_
+_all versions as of 2018-01-23_
 
 * * *
 
@@ -15,14 +15,14 @@ _all versions as of 2016-03-09_
 
 #### Installing the _cmocka_ unit testing framework for C
 
-1. Download the generic Linux archive [cmocka-1.0.1.tar.xz](https://cmocka.org/files/1.0/cmocka-1.0.1.tar.xz).
+1. Download the generic Linux archive [cmocka-1.1.1.tar.xz](https://cmocka.org/files/1.1/cmocka-1.1.1.tar.xz).
 
 2. Unpack and create a `build` directory.
 
   ```
   cd
-  tar xvf ~/Downloads/cmocka-1.0.1.tar.xz
-  cd cmocka-1.0.1
+  tar xvf ~/Downloads/cmocka-1.1.1.tar.xz
+  cd cmocka-1.1.1
   mkdir build
   cd build
   ```
