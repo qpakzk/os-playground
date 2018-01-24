@@ -2,7 +2,7 @@
 
 _host platform independent procedure_
 
-_all versions as of 2016-03-09_
+_all versions as of 2018-01-23_
 
 * * *
 
@@ -12,7 +12,7 @@ _all versions as of 2016-03-09_
 
 #### Install Java
 
-The [CLion IDE](https://www.jetbrains.com/clion/) requires a JVM to run. The follwoing installs Java 7. Not the latest, but enough for CLion.
+The [CLion IDE](https://www.jetbrains.com/clion/) requires a JVM to run. The follwoing installs Java 8. Not the latest, but enough for CLion.
 
 ```
 sudo apt-get update
@@ -24,14 +24,7 @@ sudo apt-get install default-jdk
 
 #### Update gcc/g++
 
-The default `gcc` version installed on the Ubuntu desktop (14.04.4 LTS) is 4.8. The following will upgrade it to 4.9, which has full support for C++11.
-
-```
-sudo add-apt-repository ppa:ubuntu-toolchain-r/test
-sudo apt-get update
-sudo apt-get install gcc-4.9 g++-4.9
-sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.9 60 --slave /usr/bin/g++ g++ /usr/bin/g++-4.9
-```
+The default `gcc` version installed on the Ubuntu desktop (16.04.3 LTS) is 5.4. If you want to update to the latest and/or have version alternatives, follow the instructions [here](https://gist.github.com/application2000/73fd6f4bf1be6600a2cf9f56315a2d91).
 
 #### Install CLion
 
