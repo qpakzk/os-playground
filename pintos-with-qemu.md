@@ -91,7 +91,7 @@ _all versions as of 2018-02-13_
 
     3. Change `kernel.bin` on line **257** to `$KERNEL_ROOT/src/threads/build/kernel.bin`. Expand to absolute path.
   
-    4. Change `qemu-system-i386` on line **621** to `qemu-system-x86_64`.
+    4. ~Change `qemu-system-i386` on line **621** to `qemu-system-x86_64`.~ _Runs fine with original setting_ `qemu-system-i386`.
   
     5. Save the file.
 
