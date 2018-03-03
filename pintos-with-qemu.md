@@ -142,14 +142,15 @@ _Note that some of the tests, especially the MLFQS ones, take long to run, since
 
 #### Run the tests for Project 2: User Programs
 
-_Note: Pintos 2 does not need any of the functionality implemented in Pintos 1. In particular, all threads are created with priority `PRI_DEFAULT` and the scheduler runs simple round-robin. So, if you passed all tests in Project 1, you can just continue working in your current install. Or, you can start with a new raw Pintos install._
+_Note: Project 2 does not need any of the functionality implemented in Project 1. In particular, all threads are created with priority `PRI_DEFAULT` and the scheduler runs simple round-robin. So, if you passed all tests in Project 1, you can just continue working in your current install. Or, you can start with a new raw Pintos install._
 
-1. Make sure you run a top-level clean (of _threads_) before you.
+1. Make sure you run a top-level clean (of `threads`) before you build for `userprog`.
 
 ```
 cd ~/pintos
 make clean
 ```
+
 2. In the Perl script `src/utils/pintos`, change `kernel.bin` on line **257** to `/home/pintos/pintos/src/userprog/build/kernel.bin`.
 
 3. In the Perl script `src/utils/Pintos.pm`, change `kernel.bin` on line **362** to `/home/pintos/pintos/src/userprog/build/loader.bin`.
@@ -164,14 +165,14 @@ make
 cd build
 ```
 
-5. Create a filesystem disk for the _userprog_, _vm_, and _filesys_ projects. _(Assumes the kernel was built under `userprog/`.)_
+5. Create a filesystem disk for `userprog`. _(Assumes the kernel was built under `userprog/`. Similarly, for `vm` and `filesys`.)_
 
 ```
 cd ~/pintos/src/userprog/build
 pintos-mkdisk filesys.dsk --filesys-size=2
 ```
 
-6. Format the disk with a filesystem partition. _(Assumes the kernel was built under `userprog/`.)_
+6. Format the disk with a filesystem partition. _(Assumes the kernel was built under `userprog/`. Similarly, for `vm` and `filesys`.)_
 
 ```
 pintos -f -q
