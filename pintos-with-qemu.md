@@ -103,7 +103,7 @@ _all versions as of 2018-02-13_
        vim src/utils/Pintos.pm
        ```
      
-    2. Change `loader.bin` on Line **362** to `$KERNEL_ROOT/src/threads/build/loader.bin`. Expand to absolute path.
+    2. Change `loader.bin` on Line **362** to `$PINTOS_ROOT/src/threads/build/loader.bin`. Expand to absolute path.
   
     3. Save the file.
 
